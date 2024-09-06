@@ -1,0 +1,378 @@
+/*---- Responsive CSS Start ----*/
+@media (max-width: 1440px) {
+    .credit_menu>ul>li{
+    margin: 0 20px;
+    }
+    .credit_header_wrap.fixed .credit_menu>ul>li{
+    margin: 0 16px;
+    }
+    }
+    @media (max-width: 1366px) {
+        .card_hero {
+    left: 10px;
+}
+    }
+    @media (max-width: 1024px) {
+    .credit_header_wrap.fixed .mcs_logo img {
+    height: auto;
+    }
+    .credit_menu>ul>li {
+    margin: 0 10px;
+    }
+    .credit_header_wrap.fixed .credit_menu>ul>li {
+    margin: 0 10px;
+    }
+    .credit_menu>ul>li>a{
+    font-size: 15px;
+    }
+    .credit_menu .credit_btn {
+    margin-left: 20px;
+    }
+    .mcs_content_text .credit_btn {
+    margin-top: 10px;
+    }
+    .credit_btn{
+    padding: 0px 15px;
+    min-width: 120px;
+    height: 45px;
+    }
+    }
+    @media (min-width: 992px) {
+    .subMenuLinks li:last-child{border-bottom: none;}
+    .credit_details_wrap .card_hero figure img{width: 380px;}
+    /* Filter */
+    .openFilter {
+    display: none;
+    }
+    .hideMe{display: none;}
+    .hideLogo{display: none;}
+    }
+    @media (max-width: 991px) {
+        .headingDet h1 {
+            text-align: center;
+        }
+
+        .credit_details_wrap {
+    padding: 12em 0px 15em;
+    background: linear-gradient(rgb(15, 190, 200) 0%, rgb(9, 61, 52) 100%);
+}
+        .accoEctraCss{
+    padding: 40px 20px 10px 25px;
+}
+        
+        .credit_card_filter .accordion-item{margin: 0px;border-radius: 0px;}
+    .subMenuLinks li{
+    width: 100% !important;
+    justify-content: center;
+    }
+    .dropDown a{
+    justify-content: center;
+    }
+    .dropDown{position: relative;}
+    .menuFlex{grid-template-columns: repeat(1,2fr);padding: 0;gap: 0;}
+    .subMenuLinks{text-align: center;}
+    .dropDown .megaMenu{top: 40%;opacity: 0 !important;overflow: auto;height: 50vh;}
+    .dropDown  .megaMenu.active{
+    opacity: 1 !important;
+    top: 0;
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    }
+    .credit_details_wrap .card_hero figure img{
+    width: 260px;
+    margin: 0 auto;
+    }
+    .detailAccordion{margin-top: 25px;}
+    .annualText{width: auto !important;}
+    .annualFee{
+    grid-template-columns: repeat(2, 2fr);
+    }
+    .contact_breadcrump h1{
+    font-size: 40px;
+    }
+    .contact_breadcrump {
+    padding: 100px 0px 100px 0;
+    }
+    .credit_menu>ul>li{}
+    .hideFilter.active .overlay {
+    left: 0;
+    }
+    .hideFilter {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    padding: 20px;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 0;
+    padding: 30px 0 0 0;
+    width: 90%;
+    padding: 0;
+    }
+    .hideFilter.active {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    z-index: 99999;
+    }
+    span.overlay {
+    position: fixed;
+    background: rgb(0 0 0 / 52%);
+    top: 0;
+    width: 100%;
+    left: -110%;
+    height: 100vh;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+    z-index: -7;
+    }
+    /* Filter  end*/
+    .credit_logo img{width: 60%;}
+    .credit_top_bar{display: none;}      
+    .banner_search_btn{width: 100%;}
+    .credit_card{display: block;padding: 15px;}
+    .webdesign_acco {
+    width: 100%;
+    }
+    .order-2{
+    order: unset !important;
+    }
+    .date_man{
+    margin-bottom: 15px;
+    }
+    .mcs_blog_text_line p{display: none;}
+    .blogArea{width: 100%;}
+    .mobile_banner{
+    padding: 29vh 0 20vh;
+    }
+    .mobile_banner img{}
+    .mcs_Mockup_slider{grid-template-columns: repeat(1, 2fr);display: block;}
+    .mcs_development_img{margin: 35px 0 0 0;}
+    .grid_filter{
+    grid-template-columns: repeat(4, 2fr);
+    }
+    .spePadding {
+    padding-top: 100px !important;
+    }
+    .mainGrid  .mcs_blog_text {
+    display: flex;
+    }
+    .mcs_header_bottom {
+    padding: 20px 0;
+    }
+    .credit_menu{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    }
+    .credit_menu .credit_btn {
+    margin-left: 0;
+    margin-right: 15px;
+    }
+    .credit_menu_icon {
+    display: flex;
+    z-index: 0;
+    }
+    .credit_menu>ul{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-top: 30px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    align-items: center;
+    }
+    .credit_menu>ul.clicked{
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    }
+    .credit_menu>ul>li>a, .credit_menu>ul>li>a:hover {
+    margin: 6px 0;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 0px;
+    color: #01081d;
+    }
+    .credit_menu>ul>li>a::after{
+    display: none;
+    }
+    .credit_menu>ul>li:first-child {
+    margin-left: 15px;
+    }
+    .credit_menu>ul>li ul {
+    position: initial;
+    background-color: transparent;
+    box-shadow: none;
+    width: 100%;
+    border-top: 0px;
+    }
+    .credit_menu>ul.clicked>li ul {
+    opacity: 1;
+    visibility: visible;
+    }
+    .credit_menu>ul>li ul li a {
+    text-transform: capitalize;
+    margin: 3px 0;
+    padding: 3px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    }
+    .credit_menu>ul>li ul li a:hover, .credit_menu>ul>li ul li.active a{
+    color: #FC815B;
+    background-color: transparent;
+    }
+    .credit_btn{
+    }
+    }
+    @media (max-width: 768px) {}
+    @media (max-width: 767px) {
+    .cotactInfo{
+    margin-top: 30px;
+    padding: 20px;
+    }
+    .submitBtn{justify-content: left;}
+    .contactForm{
+    margin-top: 20px;
+    }
+    .contact_bg{
+    padding: 15px;
+    }
+    .contFlex{display: grid;gap: 10px;}
+    .textArea textarea{height: 120px;}
+    .contact_breadcrump {
+    padding: 70px 0 90px 0;
+    }
+    .contact_breadcrump h1{
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .credit_card_details{
+    margin-top: 20px;
+    }
+    .credit_wiget{
+    margin: 20px 0 0 0;
+    }
+    .credit_text_banner{
+    padding: 80px 15px 0px 15px;
+    }
+    .footer_logo>a img{
+    width: 40%;
+    }
+    .addCard{padding: 10px 0px;}
+    .addCard strong{font-size: 16px; line-height: 26px;}
+    .myMap iframe{height: 250px;}
+    .card_hero h2{
+    border-bottom: 1px solid #06454f;
+    margin-bottom: 12px;
+}
+    }
+        @media (min-width: 575px) {
+.credit_details  {
+    display: none;
+}
+.offer_section {
+    padding: 40px 0px;
+}
+        }
+    @media (max-width: 576px) {
+        .card_hero {
+    top: -12%;
+}
+        .offer_section .offerCard {
+            margin-top: 3em;
+        }
+        .credit_detailshide {
+            
+display: none !important;
+        }
+        .offer_section .offerCard {
+            padding: 15px 8px;
+        }
+        .credit_details  {
+            display: block;
+        }
+        .cardBenefit .creditText h4 {
+            font-size: 18px;
+        }
+        .credit_details_wrapfin {
+    padding: 8em 0  17em !important;
+}
+        .heading h2 {
+            font-size: 32px;
+        }
+        .airlineTable {
+            padding: 50px 0px;
+        }
+        .view_deatils{display: none !important;}
+        .para{}
+        .mobileShow{display: block !important; -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;}
+        .card_hero h2{display: block !important;}
+        .credit_details_wrap .credit_details h2{display: none;}
+    .faqSec{}
+    .faqSec > .col-md-4{}
+    .faqSec .col-md-4{
+    margin-top: 25px;
+    }
+    .detailAccordion .accordion-item{padding: 0px;}
+    .credit_details_wrap .credit_details h2{
+    font-size: 25px;
+    line-height: 35px;
+    }
+    .offer_section .offerCard{
+    padding: 15px 20px;
+    }
+    .credit_details_wrap{
+    padding: 10em 0 60px;
+    }
+    .annualFee{
+    grid-template-columns: repeat(1,2fr);
+    }
+    .main_Heading h2{
+    font-size: 25px;
+    }
+    .footerNav li a{
+    padding: 0 10px;
+    border-left: 1px solid #ff6a50;
+    }
+    .credit_text_banner img{
+    height: 60px !important;
+    }
+    .credit_footer{
+    padding: 40px 15px 10px 15px;
+    }
+    .credit_card_img{
+    padding:  20px 0 0 0;
+    }
+    .credit_card_img figure img{width: 230px;}
+    .credit_pagination ul li a{
+    padding:  10px 15px;
+    }
+    .credit_pagination{justify-content: center;}
+    .offer_cls{height: 32px;}
+    .credit_btn{
+    }
+    .credit_main_btn{min-width: 100px;}
+    .banner_search_btn .credit_main_btn img{
+    height: 20px !important;
+    }
+    }
